@@ -10,6 +10,10 @@ public class Main {
         this.x = a;
     }
 
+    public void whosAuthor() {
+        System.out.println("Ravi");
+    };
+
     public static void main(String[] args) {
         Main myObj = new Main(19, 05, 1997);
         System.out.println(myObj.addNum(19, 05));
