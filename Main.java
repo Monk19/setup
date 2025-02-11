@@ -10,18 +10,12 @@ public class Main {
         System.out.println("Hello mr.v");
     }
 
-    Main(int a, int b, int c) {
-        this.x = a;
-    }
-
     public void whosAuthor() {
         System.out.println("Ravi");
     };
 
     public static void main(String[] args) {
-        Main myObj = new Main(19, 05, 1997);
-        System.out.println(myObj.addNum(19, 05));
-        System.out.println("Hello, World!");
+
         // I have some change
         sayHi();
 
